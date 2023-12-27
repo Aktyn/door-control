@@ -72,7 +72,7 @@ def main():
     posenet_decoder_delegate = load_delegate(POSENET_SHARED_LIB)
 
     # model = './models/posenet_mobilenet_v1_075_353_481_quant_decoder_edgetpu.tflite'  # mobilenet lite
-    model = './models/posenet_mobilenet_v1_075_481_641_quant_decoder_edgetpu.tflite' # mobilenet normal
+    model = './models/posenet_mobilenet_v1_075_481_641_quant_decoder_edgetpu.tflite'  # mobilenet normal
     # model = './models/posenet_mobilenet_v1_075_721_1281_quant_decoder_edgetpu.tflite' # mobilenet large
     # model = './models/posenet_resnet_50_960_736_32_quant_edgetpu_decoder.tflite'  # resnet large
 
